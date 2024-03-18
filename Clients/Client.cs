@@ -1,4 +1,6 @@
-﻿public class Client(string name, string address)
+﻿namespace Clients;
+
+public class Client(string name, string address)
 {
 
     public string Name { get; set; } = name;
